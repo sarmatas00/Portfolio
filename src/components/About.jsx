@@ -39,13 +39,11 @@ const About = () => {
         variants={fadeIn("", 0.1, 1)}
         className="mt-4 text-secondary max-w-3xl leading-[30px] text-[17px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus
-        euismod quis viverra nibh. Nunc aliquet bibendum enim facilisis gravida
-        neque convallis a cras. Sagittis purus sit amet volutpat Consequat
-        mauris. Duis ultricies lacus sed turpis tincidunt id. Consequat interdum
-        varius sit amet mattis vulputate. Enim sed faucibus turpis in eu.
-        Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
+        I'm a skilled software engineer with experience in Java and TypeScript,
+        and expertise in frameworks like React, Spring Boot and NodeJS. I'm a
+        quick learner and collaborate closely with clients to create efficient,
+        scalable, and user-friendly solutions that solve real-world problems.
+        Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

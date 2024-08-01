@@ -62,17 +62,14 @@ const Works = () => {
           variants={fadeIn(",", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in
-          arcu cursus euismod quis viverra nibh. Nunc aliquet bibendum enim
-          facilisis gravida neque convallis a cras. Sagittis purus sit amet
-          volutpat Consequat mauris. Duis ultricies lacus sed turpis tincidunt
-          id. Consequat interdum varius sit amet mattis vulputate. Enim sed
-          faucibus turpis in eu. Ridiculus mus mauris
+          Following projects showcase some of my skills ans experience. Each
+          project is briefly described with links to code repositories. It
+          reflects my ability to solve complex problems, work with different
+          technologies, and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
