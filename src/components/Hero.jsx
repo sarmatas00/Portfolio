@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -16,11 +17,41 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hey, I'm <span className="text-[#915eff]">Spyros</span>
+            <Typewriter
+              options={{
+                autoStart: true,
+                loop: false,
+                delay: 75,
+                cursor: "",
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(
+                    'Hey, I\'m <span style="color: #915eff;">Spyros </span>'
+                  )
+                  .deleteChars(1)
+                  .start();
+              }}
+            />
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            I craft dynamic web applications <br className="sm:block hidden" />{" "}
-            and user experiences
+            <Typewriter
+              options={{
+                autoStart: true,
+                loop: false,
+                delay: 75,
+                cursor: "",
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(1500)
+                  .typeString(
+                    'I craft dynamic web applications <br className="sm:block hidden" /> and user experiences '
+                  )
+                  .deleteChars(1)
+                  .start();
+              }}
+            />
           </p>
         </div>
       </div>

@@ -65,19 +65,19 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLCBvPGD_ZFg4yZg27hRhJYpT0T1kWmxYHg&s",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHQUeabRDH5SBUWiPBKck3K6EYOKk0cxivw&s",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8LcyVGdYL_K0Mn2ZdFja4cGATpYQZu07uAQ&s",
   },
   {
     name: "Java",
@@ -139,20 +139,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Computer Science",
+    title: "Computer Science BSc",
     company_name: "Aristotle University of Thessaloniki",
     icon: aristotle,
     iconBg: "#383E56",
     date: "Oct 2018 - Oct 2023",
     points: [
-      "Focused on backend development using Spring Boot and Oracle DB.",
-      "Participated in migrations of legacy enterprise applications.",
-      "Implemented robust RESTful APIs, ensured data integrity, and optimized database queries for performance improvements.",
-      "Used Talend ETL in conjunction with Azure Databricks for various data operations across multiple projects.",
-      "Expanded role to include frontend development using ReactJS with TypeScript and Tailwind CSS.",
-      "Joined a new project for the state's general chemistry, developing dynamic and responsive web interfaces.",
-      "Collaborated with designers to implement design mockups.",
-      "Integrated frontend components with backend services.",
+      "Completed core coursework in computed science, including data structures, algorithms and operating systems.",
+      "Developed programming skills in languages such as Java, C++ and PHP.",
+      "Gained experience in software development through various team projects and individual assignments.",
+      "Participated in software engineering courses, learning best practices for software development.",
+      "Conducted research on computer hardwork and networks, focusing on low level cache implementations and vulnerabilities.",
+      "Studied theoretical computer science topics, including automata theory, computability and complexity.",
     ],
   },
   {
