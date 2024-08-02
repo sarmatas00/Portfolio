@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 import { styles } from "../style";
 
 const Tech = () => {
@@ -17,8 +17,9 @@ const Tech = () => {
       <div className="w-[100%] flex flex-wrap mt-20 gap-12 justify-center">
         {technologies.map((technology, index) => (
           <Tilt>
-            <div
-              key={`skill-${index}`}
+            <motion.div
+              variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+              key={`skillSet-${index}`}
               className="w-[100%] max-w-[500px] bg-[rgba(17,25,40,0.83)] rounded-[16px]
          px-9 border-[rgba(255,255,255,0.125)] py-[18px] md:max-w-[400px]
          md:px-9 md:py-[10px] sm:max-w-[330px] sm:px-9 sm:py-[10px]"
@@ -38,7 +39,7 @@ const Tech = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </Tilt>
         ))}
       </div>
