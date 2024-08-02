@@ -26,6 +26,10 @@ import oracle from "./tech/oracle.png";
 import postgres from "./tech/postgres.png";
 import spring from "./tech/spring.png";
 import android from "./tech/android.png";
+import express from "./tech/express.png";
+import mysql from "./tech/mysql.png";
+import firebase from "./tech/firebase.png";
+import postman from "./tech/postman.png";
 import threejs from "./tech/threejs.svg";
 
 import european from "./company/european.png";
@@ -69,4 +73,8 @@ export {
   postgres,
   spring,
   android,
+  express,
+  mysql,
+  firebase,
+  postman,
 };

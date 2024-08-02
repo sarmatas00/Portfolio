@@ -20,12 +20,15 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   spring,
   oracle,
   postgres,
   java,
   android,
+  express,
+  mysql,
+  firebase,
+  postman,
 } from "../assets";
 
 export const navLinks = [
@@ -64,76 +67,109 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLCBvPGD_ZFg4yZg27hRhJYpT0T1kWmxYHg&s",
+    section: "Frontend",
+    skills: [
+      {
+        name: "HTML 5",
+        icon: html,
+      },
+      {
+        name: "CSS 3",
+        icon: css,
+      },
+      {
+        name: "JavaScript",
+        icon: javascript,
+      },
+      {
+        name: "TypeScript",
+        icon: typescript,
+      },
+      {
+        name: "React JS",
+        icon: reactjs,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: tailwind,
+      },
+      {
+        name: "Bootstrap",
+        icon: bootstrap,
+      },
+    ],
   },
   {
-    name: "CSS 3",
-    icon: "https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png",
+    section: "Backend",
+    skills: [
+      {
+        name: "Java",
+        icon: java,
+      },
+      {
+        name: "Node JS",
+        icon: nodejs,
+      },
+      {
+        name: "Spring",
+        icon: spring,
+      },
+      {
+        name: "ExpressJS",
+        icon: express,
+      },
+    ],
   },
   {
-    name: "JavaScript",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHQUeabRDH5SBUWiPBKck3K6EYOKk0cxivw&s",
+    section: "Databases",
+    skills: [
+      {
+        name: "MySQL",
+        icon: mysql,
+      },
+      {
+        name: "MongoDB",
+        icon: mongodb,
+      },
+      {
+        name: "Postgres",
+        icon: postgres,
+      },
+      {
+        name: "Oracle",
+        icon: oracle,
+      },
+      {
+        name: "Firebase",
+        icon: firebase,
+      },
+    ],
   },
+
   {
-    name: "TypeScript",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8LcyVGdYL_K0Mn2ZdFja4cGATpYQZu07uAQ&s",
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Spring",
-    icon: spring,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Postgres",
-    icon: postgres,
-  },
-  {
-    name: "Oracle",
-    icon: oracle,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "kafka",
-    icon: kafka,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "android",
-    icon: android,
+    section: "Tech",
+    skills: [
+      {
+        name: "git",
+        icon: git,
+      },
+      {
+        name: "kafka",
+        icon: kafka,
+      },
+      {
+        name: "docker",
+        icon: docker,
+      },
+      {
+        name: "android",
+        icon: android,
+      },
+      {
+        name: "Postman",
+        icon: postman,
+      },
+    ],
   },
 ];
 
