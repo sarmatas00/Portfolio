@@ -9,14 +9,12 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import bootstrap from "./tech/bootstrap.png";
@@ -30,14 +28,14 @@ import express from "./tech/express.png";
 import mysql from "./tech/mysql.png";
 import firebase from "./tech/firebase.png";
 import postman from "./tech/postman.png";
-import threejs from "./tech/threejs.svg";
 
 import european from "./company/european.png";
 import aristotle from "./company/aristotle.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import budget from "./budget.png";
+import synergia from "./synergia.png";
+import traddiction from "./traddiction.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -50,22 +48,16 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
   european,
   aristotle,
-  carrent,
-  jobit,
-  tripguide,
   bootstrap,
   java,
   kafka,
@@ -77,4 +69,8 @@ export {
   mysql,
   firebase,
   postman,
+  synergia,
+  traddiction,
+  portfolio,
+  budget,
 };
